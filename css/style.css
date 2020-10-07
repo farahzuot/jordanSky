@@ -98,8 +98,13 @@ header nav li a  {
     color: rgb(20, 20, 20);
     
 }
+#li1 a {
+
+    color: rgb(20, 20, 20);
+    
+}
 #li2 {
-    margin-left:65%;
+    margin-left:64%;
 }
 #li2 a {
     font-family: 'Cantarell', sans-serif;
