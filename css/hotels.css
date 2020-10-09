@@ -176,6 +176,7 @@ form {
 form fieldset{
     border: 2px solid rgb(255, 208, 0);
     height: 600px;
+    border-radius: 5px;
 
 }
 form legend{
@@ -277,51 +278,183 @@ form label {
 
 #searchResult {
     margin-top: 5%;
-    width: 100%;
-    height: 450px;
+    height: 450px;   
+    width : 100%;
+
 }
-#searchResult ul:first-child{
-    margin-left: 16.3%;
-}
+
 #searchResult ul {
-    float: left;
-    text-align: center;
-    box-shadow: 2px 2px 8px rgb(199, 198, 198);
-    width: 457px;
-    margin-left: 2%;
-    margin-top: 3%;
+    margin-top: 5%;
+    height: 400px;
+    margin-left: 27%;
+    width:45%;
 
 }
 
 #searchResult ul li{
-    padding: 10px;
-    color: rgb(20, 20, 20);
+    color: rgb(25, 25, 59);
     font-weight: bold;
     font-family: 'Cantarell', sans-serif;
     font-size: 15px;
-
+    margin-top: 3%;
+    text-align: center;
+    margin-left: 54%;
+    
 }
 
 #searchResult img {
-    width: 457px;
+    display: block;
+    width: 300px;
     height: 300px;
-    border-radius: 2px;
-    filter: grayscale(80%);
+    border-radius: 150px;
+    filter: grayscale(20%);
+    float: left;
 }
 #first {
-    font-family: 'Pacifico', cursive  !important;
-   font-size: 17px !important;
-   color: rgba(20, 20, 20, 0.863) !important;
+   font-family: 'Pacifico', cursive  !important;
+   font-size: 19px !important;
+   color:  rgb(40, 40, 82) !important;
+   padding-top: 50px;
+  
 }
-
-#submit3 {
-    margin-top: 3%;
-    width: 100%;
+#details {
+    clear: both;
+    text-align: center;
+}
+#submit3  {
+    margin-top: 5%;
     height: 40px;
+    width: 150px;
     border: none;
-    background-color: rgb(240, 238, 238);
-    color: rgb(32, 31, 31);
+    background-color: rgb(40, 40, 82);
+    color: white;
     font-weight: bold;
     font-family: 'Cantarell', sans-serif;
     font-size: 15px;
+    margin-left: 15%;
+
+}
+
+#submit3:hover {
+
+    margin-top: 5%;
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: rgb(193, 193, 240);
+    color: rgb(40, 40, 82);
+    font-weight: bold;
+    font-family: 'Cantarell', sans-serif;
+    font-size: 15px;
+    margin-left: 15%;
+
+
+}
+
+#details {
+    width: 70%;
+    margin-left: 16%;
+    border: 2px solid rgba(40, 40, 82, 0.041);
+    border-radius: 5px;
+    height:  350px;
+    margin-top: 30%;
+    background-color:rgba(40, 40, 82, 0.048) ;
+
+
+}
+#details li {
+    margin-top: .3%;
+    margin-left: 3%;
+    color: rgb(25, 25, 59);
+    font-weight: bold;
+    font-family: 'Cantarell', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 8px;
+    padding-top: 15px;
+    border-bottom: 1px solid rgba(195, 195, 202, 0.178);
+    border-radius: 4px;
+    background-color: white;
+    width: 39%;
+    height: 35px;
+}
+
+#liEl2::before{
+    content: '';
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    background-image: url(../img/icons/summer1.png);
+ }
+ #liEl3::before{
+    content: '';
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    background-image: url(../img/icons/wifi1.png);
+ }
+ #liEl4::before{
+    content: '';
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    background-image: url(../img/icons/dumbbell1.png);
+ }
+ #liEl5::before{
+    content: '';
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    background-image: url(../img/icons/swimming-pool1.png);
+ }
+ #liEl6::before{
+    content: '';
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    background-image: url(../img/icons/hotel-sign.png);
+ }
+
+#liEl1 {
+    margin-top: 1.5% !important;
+}
+
+#liEl7 {
+    float: right !important;
+    font-family: 'Pacifico', cursive  !important;
+    background-color:transparent  !important;
+    font-size: 19px !important;
+    margin-top: -25% !important;
+    margin-right: 30px !important;
+
+}
+
+#facebook {
+    margin-top: -15% !important;
+    float: right ;
+    margin-right: 18% !important;
+
+
+}
+
+#instagram {
+    margin-top: -15% !important;
+    float: right ;
+    margin-right: 22% !important;
+
+
+}
+#twitter {
+    margin-top: -15% !important;
+    float: right ;
+    margin-right: 26% !important;
+
+
+}
+#pinterest {
+    margin-top: -15% !important;
+    float: right ;
+    margin-right: 30% !important;
+
+
 }
